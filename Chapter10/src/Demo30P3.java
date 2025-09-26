@@ -59,7 +59,7 @@ public class Demo30P3 {
 	private void initialize()
 	
 	{
-		ImageIcon west = new ImageIcon(" /Chapter10/src/skillbuilders/logo 2.jpeg ");
+		ImageIcon logo = new ImageIcon(" /Chapter10/src/skillbuilders/logo 2.jpeg ");
 		
 		
 		frame = new JFrame();
@@ -165,7 +165,25 @@ public class Demo30P3 {
 					
 					grade = "10";
 				}
+				
+				
+				if (school.getSelectedItem().equals("12"))
+				{
 					
+				grade = "12";
+					
+				}
+				else if(Grades.getSelectedItem().equals("11"))
+					
+				{
+					
+					grade = "11";
+				}
+				else 
+				{
+					
+					grade = "10";
+				}
 				disp.setText(firstN + " " + lastN + " is in grade " + grade ); 
 			}
 		});
