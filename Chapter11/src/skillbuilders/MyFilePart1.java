@@ -1,7 +1,7 @@
 package skillbuilders;
 import java.io.File;
 import java.util.Scanner;
-public class Myfilepart1of2 {
+public class MyFilePart1 {
 	public static void main(String[] args)
 	{
 		File textFile;
