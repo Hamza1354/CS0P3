@@ -61,7 +61,7 @@ public class Assignment {
    private void loadFile() {
        String path = pathField.getText().trim();
        File file = new File(path);
-       // If no directory specified, assume current working directory
+         // If no directory specified, assume current working directory
        if (!file.exists()) {
        	if (!file.exists()) {
        	    String altPath = System.getProperty("user.dir")
