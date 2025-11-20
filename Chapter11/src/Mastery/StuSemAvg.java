@@ -1,4 +1,4 @@
-package MasteryStudent;
+package Mastery;
 
 import java.awt.*;
 import java.awt.event.*;
