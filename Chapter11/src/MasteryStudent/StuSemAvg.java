@@ -24,11 +24,11 @@ public class StuSemAvg {
         win.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         win.setSize(800, 500);
         win.setLocationRelativeTo(null);
-        win.setLayout(new BorderLayout());
+        win.getContentPane().setLayout(new BorderLayout());
         
-        win.add(constructInputPanel(), BorderLayout.WEST);
-        win.add(constructDisplayPanel(), BorderLayout.CENTER);
-        win.add(constructActionPanel(), BorderLayout.SOUTH);
+        win.getContentPane().add(constructInputPanel(), BorderLayout.WEST);
+        win.getContentPane().add(constructDisplayPanel(), BorderLayout.CENTER);
+        win.getContentPane().add(constructActionPanel(), BorderLayout.SOUTH);
         
         win.setVisible(true);
     }
@@ -95,7 +95,7 @@ public class StuSemAvg {
         JButton btnLoad = new JButton("Show Records");
         btnLoad.addActionListener(e -> showRecords());
 
-        JButton btnReset = new JButton("Clear Fields");
+        JButton btnReset = new JButton("Clear boxes");
         btnReset.addActionListener(e -> clearFields());
 
         panel.add(btnCompute);
