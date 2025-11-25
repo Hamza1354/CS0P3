@@ -33,7 +33,7 @@ public class StuSemAvg {
         win.setVisible(true);
     }
 
-    // Input Panel construction
+   
     private JPanel constructInputPanel() {
         JPanel p = new JPanel();
         p.setPreferredSize(new Dimension(310, 0));
